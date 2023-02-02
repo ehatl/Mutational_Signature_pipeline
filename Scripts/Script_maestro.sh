@@ -15,7 +15,7 @@ Script_P2="//Scripts/Script02_VCF.sh" #Llamado de variantes y obtención de PASS
 #	done
 #done
 
-####### Recalibracion de calidades y Mutect2 para generar archivos VCF y obtener las variantes PASS #######
+###### Recalibracion de calidades y Mutect2 para generar archivos VCF y obtener las variantes PASS #######
 #find ${BAMs} -name "*_merged-RG.bam" \
 #	| xargs -I BAM -P ${NT} ${Script_P2} BAM
 

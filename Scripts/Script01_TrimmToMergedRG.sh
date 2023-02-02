@@ -3,7 +3,7 @@
 
 source config-file.sh
 
-#Entrada de archivos fastq forward y reverse 
+#Entrada de archivos fastq forward y reverse
 F=$1
 R=$2
 

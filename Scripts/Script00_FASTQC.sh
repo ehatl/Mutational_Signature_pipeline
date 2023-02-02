@@ -25,6 +25,6 @@ FASTQC="/../Intermediate-Files/FASTQC/Before_T"
 ##Ruta para archivos analizados en FASTQC despues del filtrado
 FASTQCAFT="/../Intermediate-Files/FASTQC/After_T/"
 
-####Realiza el agregado de todos los archivos fastQC que se hicieron
+####Conjunta todos los archivos fastQC que se hicieron
 
 multiqc -o ${FASTQC} ${FASTQCAFT}

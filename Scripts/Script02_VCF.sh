@@ -4,7 +4,7 @@ source config-file.sh
 
 #Asignar variable al archivo final BAM que contiene los ReadGroups
 
-BAMmergedRG=$1 
+BAMmergedRG=$1
 
 ###Primera recalibración de calidades PHRED con GATK###
 
@@ -22,7 +22,7 @@ ${GATK} BaseRecalibrator -R ${GENREF} -I ${BAMmergedRG} --known-sites ${MILGENOM
 
 ABQSR=$(echo ${BAMmergedRG} | sed 's/_merged-RG\.bam/_recal_data\.bam/')
 
-#Ajuste con ApplyBQSR 
+#Ajuste con ApplyBQSR
 
 ${GATK} ApplyBQSR -R ${GENREF} -I ${BAMmergedRG} --bqsr-recal-file ${BRC} -O ${ABQSR}
 
