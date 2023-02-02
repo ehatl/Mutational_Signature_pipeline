@@ -1,7 +1,7 @@
 #En este Script se pueden detallar todas las variables que sean rutas a
 #diferentes archivos en nuestro repositorio local
 
-#Ruta del genoma de referencia
+#Ruta del genoma de referencia, por ejemplo GRCh38
 GENREF="/.../References/bundle_gatk/GRCh38/hg38_v0_Homo_sapiens_assembly38.fasta"
 
 #Ruta para variantes de buena calidad para GATK
