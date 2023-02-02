@@ -10,7 +10,7 @@ library(remotes)
 #Cargar libreria 
 library(deconstructSigs)
 
-# Asignar variable de entrada
+# Asignar variable de entrada usando los archivos TSV de los resultados
 head(sample.mut.ref)
 mut.ref.relatives <- as.data.frame(read.csv("D:/MutationalSignatures_Pipeline/Results/TSV/TSV_relatives/All_relatives_pass.tsv",
                     header = TRUE,sep="\t"))
