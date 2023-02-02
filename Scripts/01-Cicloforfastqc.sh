@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Ciclo for para FastQC de los datos crudos
+#Ciclo for para FastQC para analizar la calidad de los archivos de entrada
 
 for FASTQ in $(ls ../Input-Files/FASTQs/sample*)
 do
