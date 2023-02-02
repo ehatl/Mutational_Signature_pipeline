@@ -1,0 +1,4 @@
+#Para seguir el pipeline y entender a detalle, se deben realizar los Scripts que comienzan 
+#en número (01-13) en el orden indicado
+#Si desea simplificar el proceso, puede ejecutar el Script_maestro
+#Este ejecuta aquellos cuyo nombre inicia con "Script"
